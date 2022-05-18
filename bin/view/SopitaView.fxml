@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="562.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SopitaController">
+   <children>
+      <ImageView fx:id="imgView" fitHeight="437.0" fitWidth="562.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="sopa" fx:id="bt00" layoutX="26.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt00" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt01" layoutX="60.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt01" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt02" layoutX="94.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt02" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt03" layoutX="128.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt03" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt04" layoutX="162.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt04" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt05" layoutX="196.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt05" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt06" layoutX="230.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt06" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt07" layoutX="264.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt07" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt08" layoutX="298.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt08" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt09" layoutX="332.0" layoutY="79.0" mnemonicParsing="false" onAction="#bt09" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt10" layoutX="26.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt10" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt11" layoutX="60.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt11" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt12" layoutX="94.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt12" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt13" layoutX="128.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt13" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt14" layoutX="162.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt14" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt15" layoutX="196.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt15" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt16" layoutX="230.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt16" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt17" layoutX="264.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt17" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt18" layoutX="298.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt18" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt19" layoutX="332.0" layoutY="109.0" mnemonicParsing="false" onAction="#bt19" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt20" layoutX="26.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt20" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt21" layoutX="60.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt21" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt22" layoutX="94.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt22" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt23" layoutX="128.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt23" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt24" layoutX="162.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt24" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt25" layoutX="196.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt25" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt26" layoutX="230.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt26" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt27" layoutX="264.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt27" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt28" layoutX="298.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt28" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt29" layoutX="332.0" layoutY="139.0" mnemonicParsing="false" onAction="#bt29" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt30" layoutX="26.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt30" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt31" layoutX="60.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt31" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt32" layoutX="94.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt32" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt33" layoutX="128.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt33" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt34" layoutX="162.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt34" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt35" layoutX="196.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt35" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt36" layoutX="230.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt36" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt37" layoutX="264.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt37" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt38" layoutX="298.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt38" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt39" layoutX="332.0" layoutY="169.0" mnemonicParsing="false" onAction="#bt39" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt40" layoutX="26.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt40" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt41" layoutX="60.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt41" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt42" layoutX="94.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt42" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt43" layoutX="128.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt43" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt44" layoutX="162.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt44" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt45" layoutX="196.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt45" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt46" layoutX="230.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt46" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt47" layoutX="264.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt47" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt48" layoutX="298.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt48" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt49" layoutX="332.0" layoutY="199.0" mnemonicParsing="false" onAction="#bt49" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt50" layoutX="26.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt50" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt51" layoutX="60.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt51" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt52" layoutX="94.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt52" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt53" layoutX="128.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt53" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt54" layoutX="162.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt54" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt55" layoutX="196.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt55" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt56" layoutX="230.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt56" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt57" layoutX="264.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt57" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt58" layoutX="298.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt58" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt59" layoutX="332.0" layoutY="229.0" mnemonicParsing="false" onAction="#bt59" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt60" layoutX="26.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt60" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt61" layoutX="60.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt61" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt62" layoutX="94.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt62" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt63" layoutX="128.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt63" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt64" layoutX="162.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt64" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt65" layoutX="196.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt65" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt66" layoutX="230.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt66" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt67" layoutX="264.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt67" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt68" layoutX="298.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt68" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt69" layoutX="332.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt69" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt70" layoutX="26.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt70" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt71" layoutX="60.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt71" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt72" layoutX="94.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt72" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt73" layoutX="128.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt73" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt74" layoutX="162.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt74" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt75" layoutX="196.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt75" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt76" layoutX="230.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt76" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt77" layoutX="264.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt77" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt78" layoutX="298.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt78" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt79" layoutX="332.0" layoutY="289.0" mnemonicParsing="false" onAction="#bt79" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt80" layoutX="26.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt80" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt81" layoutX="60.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt81" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt82" layoutX="94.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt82" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt83" layoutX="128.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt83" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt84" layoutX="162.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt84" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt85" layoutX="196.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt85" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt86" layoutX="230.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt86" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt87" layoutX="264.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt87" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt88" layoutX="298.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt88" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt89" layoutX="332.0" layoutY="319.0" mnemonicParsing="false" onAction="#bt89" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt90" layoutX="26.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt90" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt91" layoutX="60.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt91" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt92" layoutX="94.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt92" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt93" layoutX="128.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt93" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt94" layoutX="162.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt94" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt95" layoutX="196.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt95" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt96" layoutX="230.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt96" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt97" layoutX="264.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt97" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt98" layoutX="298.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt98" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button id="sopa" fx:id="bt99" layoutX="332.0" layoutY="349.0" mnemonicParsing="false" onAction="#bt99" prefHeight="25.0" prefWidth="34.0" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="btBuscar" layoutX="388.0" layoutY="354.0" mnemonicParsing="false" onAction="#buscarPalabrita" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" text="Buscar" />
+      <Label  fx:id="lblBtWord" layoutX="386.0" layoutY="296.0" text="Palabra" />
+      <ProgressBar fx:id="progressBar" layoutX="25.0" layoutY="55.0" prefHeight="18.0" prefWidth="342.0" progress="0.0" />
+      <Button fx:id="btBorrar" layoutX="445.0" layoutY="354.0" mnemonicParsing="false" onAction="#delWord" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" text="Borrar" />
+      <ListView fx:id="listViewPal" layoutX="385.0" layoutY="64.0" prefHeight="200.0" prefWidth="169.0" />
+      <Button fx:id="btPista" layoutX="502.0" layoutY="354.0" mnemonicParsing="false" onAction="#hint" onMouseEntered="#mouseEntered" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" text="Pista" />
+      <Label fx:id="lblTopText" layoutX="128.0" layoutY="383.0" text="Sopa De Letras" />
+   </children>
+</AnchorPane>

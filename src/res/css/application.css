@@ -1,0 +1,67 @@
+/*Lineas de CSS para dar el estilo a la aplicacion */
+
+Button{
+
+    -fx-border-radius: 15 0 15 0;
+    -fx-background-radius: 15 0 15 0;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+
+}
+Button:hover{
+
+    -fx-background-color: #5e059e;
+    -fx-text-fill: #ffffff;
+    
+    /*-fx-border-radius: 0 15 0 15;
+    -fx-background-radius: 0 15 0 15;*/
+
+}
+#sopa{
+
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-border-color: gray;
+    -fx-border-width: 0.5px; 
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+
+}
+#sopa:hover{
+
+    -fx-background-color: #280840;
+    -fx-text-fill: #ffffff;   
+
+}
+
+Label{
+
+	-fx-font-family: consolas;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    /*-fx-border-radius: 10 0 10 0;
+    -fx-background-radius: 10 0 10 0;*/
+    -fx-font-size:25px;
+    -fx-text-fill: #ffffff;
+
+}
+
+ProgressBar{
+	
+	-fx-accent: #b95eff;
+	
+}
+
+ListView{
+	
+	-fx-background-color: white;
+	-fx-background-radius: 10 0 10 0;
+	-fx-border-radius: 10 0 10 0;
+	-fx-border-color: #5e059e;
+}
+ListView:hover{
+	
+	-fx-border-color: orangered;
+	
+}
